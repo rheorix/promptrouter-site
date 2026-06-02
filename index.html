@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PromptRouter — Privacy Policy</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #0F172A;
+      color: #F1F5F9;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+      padding: 0 16px 64px;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 48px 0 40px;
+      border-bottom: 1px solid #1E293B;
+      margin-bottom: 40px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 24px;
+      text-decoration: none;
+    }
+
+    .logo-icon {
+      font-size: 24px;
+      filter: drop-shadow(0 0 8px #F59E0B);
+    }
+
+    .logo-text {
+      font-size: 18px;
+      font-weight: 700;
+      color: #F1F5F9;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 800;
+      color: #F1F5F9;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+
+    .updated {
+      font-size: 13px;
+      color: #475569;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #F1F5F9;
+      margin: 40px 0 14px;
+    }
+
+    p {
+      color: #94A3B8;
+      margin-bottom: 14px;
+    }
+
+    strong {
+      color: #F1F5F9;
+      font-weight: 600;
+    }
+
+    ul, ol {
+      padding-left: 20px;
+      color: #94A3B8;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0 24px;
+      font-size: 13px;
+    }
+
+    thead tr {
+      border-bottom: 1px solid #1E293B;
+    }
+
+    th {
+      text-align: left;
+      padding: 8px 12px;
+      color: #475569;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-size: 11px;
+    }
+
+    td {
+      padding: 10px 12px;
+      color: #94A3B8;
+      border-bottom: 1px solid #1E293B;
+      vertical-align: top;
+    }
+
+    td code {
+      font-family: ui-monospace, 'Cascadia Code', monospace;
+      font-size: 12px;
+      background: #1E293B;
+      border: 1px solid #334155;
+      border-radius: 4px;
+      padding: 1px 6px;
+      color: #F59E0B;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 12px;
+      background: rgba(52, 211, 153, 0.1);
+      border: 1px solid rgba(52, 211, 153, 0.3);
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 600;
+      color: #34D399;
+      margin-bottom: 20px;
+    }
+
+    .never-list {
+      background: #162032;
+      border: 1px solid #1E293B;
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin: 14px 0;
+    }
+
+    .never-list li {
+      color: #94A3B8;
+      margin-bottom: 4px;
+    }
+
+    .never-list li::marker {
+      color: #F87171;
+    }
+
+    a {
+      color: #F59E0B;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 56px;
+      padding-top: 24px;
+      border-top: 1px solid #1E293B;
+      font-size: 13px;
+      color: #475569;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a class="logo" href="https://github.com/rheorix/prompt-router">
+        <span class="logo-icon">⚡</span>
+        <span class="logo-text">PromptRouter</span>
+      </a>
+      <div class="badge">🔒 Privacy First</div>
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: 2026-05-28</p>
+    </header>
+
+    <h2>1. What we collect</h2>
+    <p>PromptRouter is designed to be privacy-first. <strong>Your prompt text never leaves your browser</strong> — it is never stored, transmitted, or logged anywhere.</p>
+    <p>When you route a prompt and have opted into anonymous analytics, PromptRouter records <strong>only</strong>:</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Field</th>
+          <th>Example</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>task_category</code></td>
+          <td>"coding"</td>
+          <td>The detected intent category (e.g. coding, writing, search)</td>
+        </tr>
+        <tr>
+          <td><code>model</code></td>
+          <td>"claude"</td>
+          <td>The AI model that was selected</td>
+        </tr>
+        <tr>
+          <td><code>confidence</code></td>
+          <td>0.87</td>
+          <td>The classifier's confidence score (0–1)</td>
+        </tr>
+        <tr>
+          <td><code>timestamp</code></td>
+          <td>"2026-05-28T14:32:00Z"</td>
+          <td>ISO 8601 UTC timestamp of the routing event</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p><strong>We never collect:</strong></p>
+    <ul class="never-list">
+      <li>Your prompt text or any part of its content</li>
+      <li>Your browsing history or visited URLs</li>
+      <li>Your IP address or any network identifier</li>
+      <li>Your name, email, or any personally identifiable information</li>
+      <li>The text selected on a webpage</li>
+    </ul>
+
+    <h2>2. How we use it</h2>
+    <p>The anonymous routing metadata listed above is used exclusively to show you your own local routing history (model chosen, task category, confidence) and help you identify which AI models you use most often.</p>
+    <p>All processing happens <strong>locally in your browser</strong>. No data is sent to any external server in the default configuration.</p>
+    <p>An optional analytics endpoint can be configured in Settings. Even when enabled, only the four anonymous fields above are transmitted — never prompt text.</p>
+
+    <h2>3. Data retention</h2>
+    <p>Routing history is stored in <code>chrome.storage.local</code> on your device only. A maximum of <strong>100 entries</strong> are kept; older entries are automatically deleted when the limit is reached. No data is synced to any cloud service. Clearing browser data for the extension removes all stored entries.</p>
+
+    <h2>4. Your rights</h2>
+    <p>You have full control over your data:</p>
+    <ul>
+      <li><strong>Clear history</strong> — Open the extension → Settings (⚙) → "Clear routing history". All stored entries are permanently deleted from your device.</li>
+      <li><strong>Disable analytics</strong> — Open Settings → toggle <strong>Anonymous analytics</strong> off. No routing events will be recorded from that point forward.</li>
+      <li><strong>Uninstall</strong> — Removing the extension from Chrome automatically deletes all data stored by PromptRouter.</li>
+    </ul>
+
+    <h2>5. Third-party services</h2>
+    <p>PromptRouter opens tabs to third-party AI platforms (Claude, ChatGPT, Gemini, etc.) on your behalf. Once you navigate to those platforms, their own privacy policies apply. PromptRouter has no affiliation with and sends no data to any of those services on your behalf.</p>
+
+    <h2>6. Changes to this policy</h2>
+    <p>If this policy changes materially, the updated version will be published with a new "Last updated" date. As PromptRouter stores no account or contact information, we cannot notify users directly — please check this page when the extension updates.</p>
+
+    <h2>7. Contact</h2>
+    <p>For questions or concerns about this privacy policy, contact the developer at <a href="mailto:dev@rheorix.com">dev@rheorix.com</a> or open an issue on <a href="https://github.com/rheorix/promptrouter-site" target="_blank" rel="noopener">GitHub</a>.</p>
+
+    <footer>
+      &copy; 2026 PromptRouter · <a href="https://github.com/rheorix/prompt-router">GitHub</a> · <a href="https://www.rheorix.com/en/contacts/">Contact</a>
+    </footer>
+  </div>
+</body>
+</html>
